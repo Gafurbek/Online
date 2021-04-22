@@ -1,658 +1,331 @@
-@media(max-width:1400px){
-    .learn__more_border {
-        max-width: 426px;
-        height: 400px;
+@media(max-width:588px){
+    main a {
+        padding: 0 5px;
     }
 
-    .learn__more_border img {
-        padding-top: 45px;
-        max-height: 380px;
-        max-width: 400px;
-    }
-
-    .learn__more_text h2 {
-        font-size: 2.5rem;
-        margin-bottom: 40px;
-    }
-
-    .big__line {
-        position: relative;
-    }
-
-    .static__referense p {
-        margin-top: 35px;
-    }
-}
-
-@media(max-width:1200px){
-    .nav__link li a{
-        margin: 0 14px;
-    }
-
-    .learn__more_border {
-        max-width: 326px;
-        height: 300px;
-    }
-
-    .learn__more_border img {
-        padding-top: 35px;
-        max-height: 280px;
-        max-width: 300px;
-    }
-
-    .learn__more_text {
-        max-width: 436px;
-    }
-
-    .learn__more_text h2 {
-        margin-bottom: 30px;
-    }
-
-    .learn__more_text p {
-        font-size: 14px;
-    }
-
-    .section p {
-        max-width: 258px;
-    }
-
-    .brand__logo_block {
-        height: 250px;
-    }
-
-    .brand__logo_block img {
-        width: 168px;
-        height: 73px;
-    }
-
-    .brand__logo {
-        padding-bottom: 203px;
-    }
-}
-
-
-@media(max-width:992px){
-    .nav__link{
-        display: flex;
-        position: fixed;
-        background: black;
-        width: 100%;
-        height: 70%;
-        z-index: 10;
-        opacity: 1;
-        box-shadow: 0 10px 10px cyan;
-        top: 0;
-        left: 0;
-        justify-content: space-around;
-        align-items: center;
-        transform: translateY(-150%);
-        transition: .5s linear;
-    }
-
-    .close__btn{
-        display: block;
-        border: none;
-        background: none;
-        font-size: 40px;
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        z-index: 11;
-        color: white;
-    }
-
-    .menu__btn:focus .nav__link{
-        transform: translateY(100%);
-    }
-
-    .menu__btn{
-        display: block;
-        background: none;
-        color: white;
-        font-size: 35px;
-        border: none;
-
-    }
-
-    .intro__title {
-        margin-bottom: 50px;
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 140%;
-        color: #FFFFFF;
-        max-width: 520px;
-    }
-
-    .nav_bar {
-        padding: 19px 40px;
-        margin-bottom: 188px;
-    }
-
-    .learn__more_border {
-        max-width: 426px;
-        height: 400px;
-    }
-
-    .learn__more_border img {
-        padding-top: 35px;
-        max-height: 380px;
-        max-width: 450px;
-    }
-
-    .learn__more_text {
-        max-width: 636px;
-        margin-top: 3rem;
-    }
-
-    .learn__more {
-        padding-bottom: 150px;
-    }
-
-    .static__title h2 {
-        font-size: 2.5rem;
-        margin-left: 10px;
-    }
-
-    .static__title img{
+    main a img {
+        border-radius: 50%;
         width: 60px;
+        height: 60px;
+        margin-right: 8px;
     }
 
-    .static__text {
-        margin-top: 30px;
-        margin-bottom: 60px;
+    main a div {
+        padding: 14px 10px;
     }
 
-    .static__referense span {
-        font-size: 2rem;
+    main a ul li:first-child {
+        font-size: 18px;
     }
 
-    .static{
-        padding-bottom: 150px;
-    }
-
-    .section h2 {
-        font-size: 2.5rem;
-        margin-bottom: 90px;
-    }
-
-    .section h3 {
-        margin-bottom: 10px;
-        margin-top: 40px;
-    }
-
-    .brand__logo_title h2 {
-        font-size: 2.5rem;
-        margin-left: 32px;
-    }
-
-    .brand__logo_title img {
-        width: 60px;
-    }
-
-    .brand__logo_block img {
-        width: 138px;
-    }
-
-    .brand__logo_block {
-        height: 210px;
-    }
-
-    .new__block img {
-        margin-bottom: 56px;
-        width: 60px;
-    }
-
-    .new__block h2 {
-        font-size: 2.5rem;
-        margin-bottom: 30px;
-    }
-
-    .section__end_title img {
-        width: 60px;
-    }
-
-    .section__end_title h2 {
-        margin-left: 18px;
-        font-size: 2.5rem;
-    }
-
-    .section__end_block h3 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-
-    .footer h2 {
-        font-size: 2.5rem;
-        margin-bottom: 25px;
-    }
-}
-@media(max-width:768px){
-    .nav__link {
-        flex-direction: column;
-    }
-
-    .line {
-        max-width: 514px;
-        height: 6px;
-        margin-bottom: 5px;
-        margin-top: 8px;
-    }
-
-    .section__block p{
-        margin-bottom: 50px;
-    }
-
-    .brand__logo_block img {
-        width: 100px;
-    }
-
-    .brand__logo_block {
-        height: 170px;
-    }
-    
-    .section__end_block{
-        padding-bottom: 100px;
-    }
-
-    .section__end_block div{
-        margin-bottom: 50px;
-    }
-
-    .static__referense p {
-        margin-top: 30px;
-        font-size: 10px;
-    }
-
-    .new__block_left ul {
-        margin-right: 40px;
-    }
-
-    .new__block_left ul::after {
-        width: 30px;
-        right: -41px;
-    }
-
-    .new__block_right ul {
-        margin-left: 56px;
-    }
-
-    .new__block_right ul::after {
-        width: 30px;
-        left: -57px;
-    }
-
-    .new__block_left ul li:last-child, 
-    .new__block_right ul li:last-child {
+    main a ul li:last-child {
         font-size: 16px;
-        line-height: 160%;
-        color: #FFFFFF;
-        width: 228px;
-    }
-}
-@media(max-width:576px){
-    .intro__title {
-        margin-bottom: 40px;
-        font-size: 30px;
-        max-width: 320px;
-        width: 100%;
     }
 
-    .line {
-        max-width: 314px;
-        height: 6px;
-        margin-bottom: 3px;
-        margin-top: 5px;
+    .text_rigth li:last-child {
+        padding-top: 2px;
+        width: 23px;
+        height: 23px;
     }
 
-    .intro__end_text ul:first-child {
-        font-size: 14px;
+    .text_rigth li:first-child {
+        font-size: 15px;
     }
 
-    .intro__end_text ul:last-child {
-        font-size: 14px;
+    .text_rigth_l li:first-child {
+        font-size: 15px;
     }
 
-    .static {
-        padding-bottom: 80px;
-    }
-
-    .static__title h2 {
-        font-size: 1.5rem;
-    }
-
-    .static__title img {
-        width: 40px;
-    }
-
-    .static__text {
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-
-    .static__referense span {
-        font-size: 1.5rem;
-    }
-
-    .big__line {
-        margin-top: 5px;
-    }
-
-    .static__referense p {
-        margin-top: 10px;
-    }
-
-    .learn__more {
-        padding-bottom: 100px;
-    }
-
-    .section h2 {
-        font-size: 1.5rem;
-        margin-bottom: 60px;
-    }
-
-    .section h3 {
-        margin-bottom: 7px;
-        margin-top: 20px;
-        font-size: 20px;
-    }
-
-    .section p {
-        max-width: 100%;
-    }
-
-    .section {
-        padding-bottom: 110px;
-    }
-
-    .brand__logo_title img {
-        width: 40px;
-    }
-
-    .brand__logo_title h2 {
-        font-size: 1.5rem;
-        margin-left: 15px;
-    }
-
-    .brand__logo_block img {
-        width: 80px;
-        height: 65px;
-    }
-
-    .brand__logo_block {
-        height: 150px;
-    }
-
-    .nav__link{
-        font-size: 20px;
-        flex-direction: column;
-    }
-
-    .learn__more {
-        padding-top: 100px;
-    }
-
-    .new__block_left ul li:last-child,
-    .new__block_right ul li:last-child {
-        font-size: 14px;
-        line-height: 160%;
-        color: #FFFFFF;
-        max-width: 200px;
-    }
-
-    .new__block_left ul li:first-child, 
-    .new__block_right ul li:first-child {
-        font-size: 12px;
-    }
-
-    .new__block_left ul {
-        margin-right: 20px;
-    }
-
-    .new__block_left ul::after {
-        width: 15px;
-        right: -21px;
-    }
-
-    .new__block_right ul {
-        margin-left: 26px;
-    }
-
-    .new__block_right ul::after {
-        width: 15px;
-        left: -27px;
-    }
-
-    .learn__more_text h2 {
-        font-size: 24px;
-    }
-
-    .brand__logo {
-        padding-bottom: 100px;
-    }
-
-    .new__block img {
-        margin-bottom: 36px;
-        width: 40px;
-    }
-
-    .new__block h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
-
-    .new__block p {
-        margin-bottom: 40px;
-    }
-
-    .new__block {
-        padding-bottom: 150px;
-    }
-
-    .section__end_title img {
-        width: 40px;
-    }
-
-    .section__end_title h2 {
-        margin-left: 15px;
-        font-size: 1.5rem;
-    }
-
-    .footer h2 {
-        font-size: 1.5rem;
-        margin-bottom: 15px;
-    }
-
-    form input {
-        border-radius: 50px 50px 50px 50px;
-        margin-bottom: 10px;
-    }
-
-    form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    form button{
-        margin: 0;
-    }
-
-    .intro__date div {
+    .left__menu_top a img {
         width: 75px;
-        height: 82px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #121212;
-        margin-right: 20px;
-        margin-bottom: 218px;
+        height: 75px;
     }
 
-    .intro__date p {
-        font-size: 2rem;
+    .left__menu_link li a {
+        font-size: 18px;
+        margin-bottom: 22px;
     }
 
-    .intro__date span {
-        font-size: 14px;
-    }
-
-    .learn__more_border {
-        max-width: 426px;
-        width: 100%;
-        max-height: 380px;
-        height: 100%;
-    }
-
-    .learn__more_border img {
-        max-height: 380px;
-        max-width: 450px;
-        width: 100%;
-    }
-
-    .intro__end .container {
-        height: max-content;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .intro__end button {
-        font-size: 14px;
-        width: 140px;
-        height: 35px;
-        margin-top: 8px;
-        margin-bottom: 8px;
-    }
-
-    .intro__end_text{
-        margin-bottom: 8px;
-        margin-left: 5px;
-    }
-
-    .intro__end_text {
-        margin-top: 8px;
-    }
-}
-@media(max-width:456px){
-
-    .nav_bar {
-        padding: 10px 10px;
-        margin-bottom: 188px;
-    }
-
-    .nav_btn {
-        width: 160px;
-        height: 30px;
-        font-size: 14px;
-    }
-
-    .menu__btn {
-        font-size: 30px;
-    }
-
-    .nav_bar {
-        padding: 10px 10px;
-        margin-bottom: 148px;
-    }
-
-    .intro__title {
-        margin-bottom: 30px;
-        font-size: 26px;
-
-    }
-
-    .nav_bar img{
-        width: 30px;
-        height: 30px;
-    }
-
-
-    .intro__date p {
-        font-size: 1.5rem;
-    }
-
-    .intro__date span {
-        font-size: 12px;
-    }
-
-    .learn__more_text h2 {
-        margin-bottom: 10px;
-    }
-
-    .learn__more {
-        padding-bottom: 80px;
-    }
-
-    .section__end_block {
-        margin-top: 40px;
-    }
-
-    .section {
-        padding-bottom: 80px;
-    }
-
-    .brand__logo_block img {
-        width: 60px;
-        height: 40px;
-    }
-
-    .brand__logo_block{
-        height: 100px;
-    }
-
-    .new__block_left ul li:last-child, 
-    .new__block_right ul li:last-child {
-        font-size: 10px;
-        max-width: 140px;
-        width: 100%;
-    }
-
-    .new__block_left ul li:first-child, 
-    .new__block_right ul li:first-child {
-        font-size: 10px;
-    }
-
-    form input {
-        max-width: 310px;
-        height: 44px;
-        width: 100%;
-    }
-
-    .section__end_block {
-        padding-bottom: 80px;
-    }
-
-    .static__referense .col-3{
-        width: 50%;
-    }
-
-    .big__line {
-        width: 100%;
-    }
-
-    .static__referense span {
-        font-size: 1rem;
-    }
-
-    .brand__logo_title h2 {
+    .search input {
+        height: 58px;
         font-size: 1.2rem;
     }
 
-    .brand__logo_title img {
-        width: 35px;
+    .search i {
+        font-size: 22px;
+        margin: 0 25px;
     }
 
-    .brand__logo {
-        padding-bottom: 60px;
+    .search__link a {
+        font-size: 17px;
+        padding: 8px 12px;
     }
 
-    .brand__logo_block {
-        margin-top: 30px;
+    .search__link {
+        padding-top: 12px;
     }
 
-    .new__block {
-        padding-bottom: 100px;
+    .search__contact li {
+        text-align: center;
+        margin: 3px 18px;
+    }
+
+    .search__contact p {
+        margin-top: 4px;
+    }
+
+    button i {
+        font-size: 25px;
     }
 }
-@media(){}
-@media(){}
+
+@media(max-width:537px){
+    main a ul li:first-child {
+        font-size: 17px;
+    } 
+
+    main a ul li:last-child {
+        font-size: 15px;
+    }
+
+    .text_rigth li:first-child {
+        font-size: 14px;
+    }
+
+    .text_rigth_l li:first-child {
+        font-size: 14px;
+    }
+
+    nav {
+        padding: 15px 18px;
+    }
+
+    button i {
+        font-size: 20px;
+    }
+
+    nav h1 {
+        font-size: 1.3rem;
+    }
+
+    main a img {
+        width: 55px;
+        height: 55px;
+        margin-right: 6px;
+    }
+
+    main a div {
+        padding: 13px 8px;
+    }
+
+    .left__menu_top a img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .left__menu_title li:first-child {
+        font-size: 1.1rem;
+    }
+
+    .left__menu ul:last-child {
+        margin-top: 15px;
+    }
+
+    .contacti a {
+        font-size: 16px;;
+        margin-bottom: 8px;
+    }
+
+    .left__menu_link li a {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+
+    .icon {
+        width: 38px;
+        margin-right: 30px;
+    }
+
+    .left__menu_link {
+        margin: 20px 18px;
+    }
+}
+
+@media(max-width:500px){
+    main a ul li:last-child {
+        font-size: 13px;
+    }
+
+    .text_rigth_l li:first-child {
+        font-size: 12px;
+    }
+
+    .text_rigth li:first-child {
+        font-size: 12px;
+    }
+
+    .text_rigth li:last-child {
+        padding-top: 2px;
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+    }
+
+    .search i {
+        font-size: 18px;
+        margin: 0 25px;
+    }
+
+    .link__border{
+        font-size: 15px;
+    }
+
+    .search__contact img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .search__contact li {
+        margin: 2px 15px;
+    }
+
+    .search__contact p {
+        font-size: 12px;
+    }
+
+    .search__link a {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
+}
+
+@media(max-width:435px){
+    .search__link{
+        overflow-x: scroll;
+        justify-content: start;
+        padding-top: 8px;
+    }
+
+    .search input {
+        height: 50px;
+        font-size: 1.2rem;
+    }
+
+    .search i {
+        margin-right:  20px;
+    }
+
+    main a img {
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+
+    main {
+        padding-top: 54px;
+    }
+
+    main a ul li:first-child {
+        font-size: 16px;
+    }
+
+    main a ul li:last-child {
+        font-size: 11px;
+    }
+
+    main a div {
+        padding: 10px 7px;
+    }
+
+    .text_rigth li:first-child {
+        font-size: 10px;
+    }
+
+    .left__menu_top a img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .left__menu_top .fas {
+        font-size: 26px;
+    }
+
+    .contacti a {
+        font-size: 14px;
+        margin-bottom: 6px;
+        padding: 0 5px;
+    }
+
+    .contacti span {
+        font-size: 30px;
+    }
+
+    .left__menu_link li a {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .left__menu_link li:first-child i {
+        font-size: 1.2rem;
+        margin-right: 25px;
+    }
+
+    .left__menu_link li i {
+        font-size: 1.2rem;
+    }
+
+    .icon:last-child {
+        text-align: left;
+    }
+
+    .left__menu_title li:first-child {
+        font-size: 15px;
+    }
+
+    .left__menu_title span {
+        color: rgba(255, 255, 255, 0.404);
+        font-size: 12px;
+    }
+}
+@media(max-width:372px){
+    main a ul li:last-child {
+        font-size: 10px;
+    }
+
+    .text_rigth_l li:first-child {
+        font-size: 10px;
+    }
+
+    main a img {
+        width: 45px;
+        height: 45px;
+        margin-right: 4px;
+    }
+
+    main a ul li:first-child {
+        font-size: 15px;
+    }
+
+    nav h1 {
+        color: white;
+        margin-left: 25px;
+        font-weight: 500;
+    }
+
+    .search i {
+        margin-right: 18px;
+        margin-left: 18px;
+        font-size: 16px;
+    }
+
+    .search__contact img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media(max-width:335px){
+    main a ul li:last-child {
+        font-size: 9px;
+    }
+}

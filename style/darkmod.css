@@ -1,0 +1,115 @@
+.dark__mod main a ul:first-child li:first-child{
+    color: black;
+}
+
+.dark__mod span{
+    color: rgb(57, 182, 255);
+}
+
+.dark__mod .text_rigth li:last-child {
+    background: rgb(4, 201, 4);
+}
+
+.dark__mod .text_rigth li:first-child {
+    color: rgba(39, 39, 39, 0.678);
+}
+
+.dark__mod .text_rigth_l li:first-child {
+    color: rgba(39, 39, 39, 0.678);
+}
+
+.dark__mod .left__menu_link li a {
+    color: black;
+}
+
+.dark__mod .left__menu_link li i {
+    color: rgba(39, 39, 39, 0.678);
+    font-weight: 500;
+}
+
+.dark__mod .search__contact p {
+    color: black;
+}
+
+.dark__mod .left__menu_top{
+    background: #5a8fbb;
+}
+
+.dark__mod nav{
+    background: #4a84b4;
+}
+
+.dark__mod main, 
+.dark__mod .left__menu{
+    background: white;
+}
+
+.dark__mod main a ul li:last-child {
+    color: rgba(39, 39, 39, 0.678);
+}
+
+.dark__mod main a:hover{
+	background: #3e505c28;
+}
+
+.dark__mod .search__menu div {
+    background: white;
+}
+
+.dark__mod .search i {
+    color: rgba(39, 39, 39, 0.678);
+}
+
+.dark__mod .search__contact {
+    background: white;
+}
+
+.dark__mod .search input{
+    color: black;
+}
+
+.dark__mod .search input::placeholder{
+    color: rgba(39, 39, 39, 0.678);
+}
+
+.dark__mod .search__link a {
+    color: rgba(39, 39, 39, 0.678);
+}
+
+.dark__mod .search__link {
+    border-bottom: 1px solid rgba(39, 39, 39, 0.233);
+}
+
+.dark__mod .link__border.active {
+    color: deepskyblue;
+}
+
+.dark__mod main a ul:last-child li:last-child {
+    color: white;
+}
+
+.dark__mod main a div {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.dark__mod .dark_icon{
+    display: none;
+}
+
+.dark__mod .light__icon{
+    cursor: pointer;
+    display: block;
+    transform: rotate(-120deg);
+}
+
+.dark__mod .left__menu_link li a:hover {
+    background: none;
+}
+
+.dark__mod .left__menu_title span{
+	color: rgba(255, 255, 255, 0.74);
+}
+
+.dark__mod .contacti a {
+    color: black;
+}
